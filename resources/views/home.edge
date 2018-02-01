@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <title>Home view</title>
-    {{ css('style') }}
+    {{ css('css/style') }}
 </head>
 <body>
     <h1>This is the home view</h1>
@@ -12,7 +12,7 @@
         @each(todo in todos)
             <li>{{ todo.text }}</li>
         @endeach
-    </ul>
+    </ul>    
 </body>
 </html>
 

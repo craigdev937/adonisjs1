@@ -8,6 +8,9 @@ class TodoController {
         const todos = await Todo.all();        
         return view.render('home', { todos: todos.toJSON() });
     };
+    async store({ request, response }) {
+        
+    }
 };
 
 module.exports = TodoController
